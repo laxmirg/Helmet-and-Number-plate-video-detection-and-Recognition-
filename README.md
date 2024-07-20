@@ -1,4 +1,3 @@
-!git clone https://github.com/manikanta-varaganti/detection-of-motorcyclists-without-helmet.git
 %cd /content/detection-of-motorcyclists-without-helmet/HelmetDetection
 # clone Tensorflow object detection api
 !git clone https://github.com/tensorflow/models
@@ -417,6 +416,9 @@ out.release()
 
 
 #IMPORTANT 
+# first you have to run below link first
+!git clone https://github.com/manikanta-varaganti/detection-of-motorcyclists-without-helmet.git
+
 # Do not run the BELOW code it's just a directory
 import shutil
 
