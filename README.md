@@ -1,4 +1,4 @@
-!git clone https://github.com/manikanta-varaganti/detection-of-motorcyclists-without-helmet.git
+# !git clone https://github.com/manikanta-varaganti/detection-of-motorcyclists-without-helmet.git
 %cd /content/detection-of-motorcyclists-without-helmet/HelmetDetection
 # clone Tensorflow object detection api
 !git clone https://github.com/tensorflow/models
