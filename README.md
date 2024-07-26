@@ -1,3 +1,4 @@
+USING The Algorithms are CNN-Darknet and YOLO-V3
 %cd /content/detection-of-motorcyclists-without-helmet/HelmetDetection
 # clone Tensorflow object detection api
 !git clone https://github.com/tensorflow/models
