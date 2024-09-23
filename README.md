@@ -406,12 +406,7 @@ for img in images:
 out.release()
 
 
-#IMPORTANT 
-# first you have to run below link first
-!git clone https://github.com/manikanta-varaganti/detection-of-motorcyclists-without-helmet.git
 
-# Do not run the BELOW code it's just a directory
-import shutil
 
 # Path to the directory you want to delete
 directory_path = "/content/license_plate_images"
