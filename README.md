@@ -1,15 +1,5 @@
 #USING The Algorithms are CNN-Darknet and YOLO-V3
-%cd /content/detection-of-motorcyclists-without-helmet/HelmetDetection
-# clone Tensorflow object detection api
-!git clone https://github.com/tensorflow/models
-# Run to install proto buffers for object detection api
-!apt-get update
-!apt-get install -y -qq protobuf-compiler python-pil python-lxml
-import sys
-sys.path.append('/content/detection-of-motorcyclists-without-helmet/HelmetDetection/models/research/slim')
-!pip install tf_slim
-%cd /content/detection-of-motorcyclists-without-helmet/HelmetDetection/models/research
-!protoc object_detection/protos/*.proto --python_out=.
+
 # Import packages
 import os
 import cv2
